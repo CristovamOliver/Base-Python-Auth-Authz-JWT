@@ -37,8 +37,8 @@ A API estará disponível em `http://localhost:8000`
 ### 1. Obter Token (Login)
 - **POST** `/token`
 - Body (form-data):
-  - username: johndoe
-  - password: secret
+  - username: user
+  - password: 123
 
 ### 2. Ver Perfil do Usuário (Protegido)
 - **GET** `/users/me`
